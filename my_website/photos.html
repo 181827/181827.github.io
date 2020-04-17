@@ -45,12 +45,13 @@
 		<div class="row justify-content-center" id="infoContainerPhotos" style="margin-left:25%; margin-right:25%; width:50% !important" >
 			<h1>My Photos</h1>
 			<section id="photos"></section>
+			
     	</div>
 
 
 		<footer> 
-			<div id="footer-content">
-				<p>© 2020 Copyright: madlenka i didka be </p>
+			<div id="footer-content">	
+				<p>© 2020 Copyright: madlenka</p>
 			</div>
 		</footer>
 
@@ -62,7 +63,7 @@
 			var allImages = "";
 
 			for (var i = 1; i <= 12; i++) {
-  				allImages += '<img src="images/madlen/'+i+'.jpg"/>';
+  				allImages += '<img class="img-fluid" src="images/madlen/'+i+'.jpg"/>';
 			}
 
 			$('#photos').append(allImages);
